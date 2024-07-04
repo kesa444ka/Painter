@@ -66,7 +66,7 @@ void DrawingArea::mousePressEvent(QMouseEvent *event)
                     } else {
                         connectionEndPoint = shapes[i]->boundingRect().center();
                         if (startShapeIndex != i) {
-                            connections.push_back(std::make_pair(startShapeIndex, i));
+                            connections.push_back(qMakePair(startShapeIndex, i));
                         }
                         connectionStartPoint = QPoint();
                         connectionEndPoint = QPoint();
