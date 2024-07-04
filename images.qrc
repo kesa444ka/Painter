@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>icons/connect.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/ellipse.png</file>
+        <file>icons/move.png</file>
+        <file>icons/rectangle.png</file>
+        <file>icons/save.png</file>
+        <file>icons/triangle.png</file>
+        <file>icons/load.png</file>
+    </qresource>
+</RCC>
